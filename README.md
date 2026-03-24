@@ -4,7 +4,7 @@
 ## Overview
 This model simulates the interaction between two competing species with population sizes $a(t)$ and $b(t)$ at a given time $t$. 
 
-![coupled-growth_competition](coupled-growth_competition/nullcline.png)
+![coupled-growth_competition](coupled-growth_competition/pop-over-time.png)
 ---
 
 ## 1. Exponential Growth Model (Independent)
@@ -38,7 +38,7 @@ $$\frac{da}{dt} = 0.2a(1 - \frac{a+b}{1000}) = 0$$
 **Species b:**
 $$\frac{db}{dt} = 0.5b(1 - \frac{a+b}{500}) = 0$$
 
-![coupled-growth_competition](coupled-growth_competition/pop-over-time.png)
+![coupled-growth_competition](coupled-growth_competition/nullcline.png)
 
 ---
 
